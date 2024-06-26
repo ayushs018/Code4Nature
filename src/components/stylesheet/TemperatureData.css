@@ -1,0 +1,73 @@
+/* TemperatureData.css */
+.temperature-data-container {
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+  
+  .temperature-data-container h1 {
+    color: #4CAF50;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .formbody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    margin-bottom: 5px;
+    color: #f6f2f2;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .temperature-data-container button {
+    padding: 14px 26px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .temperature-data-container button:hover {
+    background-color: #447246;
+  }
+  
+  .temperature-results {
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+
+  @media (max-width:450px) {
+    .temperature-data-container{
+        padding: 20px 10px;
+    }
+  }
+  
